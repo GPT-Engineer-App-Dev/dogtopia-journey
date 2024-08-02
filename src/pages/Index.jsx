@@ -1,11 +1,41 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Dog } from "lucide-react";
 
 const Index = () => {
   return (
-    <div className="flex justify-center items-center">
-      <div className="text-center">
-        <h1 className="text-3xl">Your Blank Canvas</h1>
-        <p>Chat with the agent to start making edits.</p>
+    <div className="container mx-auto px-4 py-8">
+      <h1 className="text-4xl font-bold mb-6 flex items-center">
+        <Dog className="mr-2" /> All About Dogs
+      </h1>
+      <div className="grid md:grid-cols-2 gap-8">
+        <div>
+          <img
+            src="https://images.unsplash.com/photo-1517849845537-4d257902454a"
+            alt="Cute dog"
+            className="rounded-lg shadow-lg mx-auto object-cover w-full h-[400px]"
+          />
+        </div>
+        <div>
+          <h2 className="text-2xl font-semibold mb-4">Man's Best Friend</h2>
+          <p className="mb-4">
+            Dogs are domesticated mammals known for their loyalty, companionship, and diverse breeds. They have been 
+            living alongside humans for thousands of years, serving various roles from working animals to beloved pets.
+          </p>
+          <h3 className="text-xl font-semibold mb-2">Characteristics</h3>
+          <ul className="list-disc list-inside mb-4">
+            <li>Loyal and affectionate</li>
+            <li>Intelligent and trainable</li>
+            <li>Come in various sizes and shapes</li>
+            <li>Have an excellent sense of smell and hearing</li>
+          </ul>
+          <h3 className="text-xl font-semibold mb-2">Popular Breeds</h3>
+          <ul className="list-disc list-inside">
+            <li>Labrador Retriever</li>
+            <li>German Shepherd</li>
+            <li>Golden Retriever</li>
+            <li>French Bulldog</li>
+            <li>Beagle</li>
+          </ul>
+        </div>
       </div>
     </div>
   );
