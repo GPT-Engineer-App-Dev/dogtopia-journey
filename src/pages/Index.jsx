@@ -4,7 +4,7 @@ const Index = () => {
   return (
     <div className="container mx-auto px-4 py-8 bg-gray-100">
       <h1 className="text-4xl font-bold mb-6 flex items-center text-gray-800">
-        <Dog className="mr-2 text-gray-700" /> All About Dogs
+        <Dog className="mr-2 text-gray-700" /> all about dogggggs
       </h1>
       <div className="grid md:grid-cols-2 gap-8">
         <div>
