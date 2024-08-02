@@ -1,4 +1,4 @@
-import { Dog, Paw } from "lucide-react";
+import { Dog, PawPrint } from "lucide-react";
 
 const Index = () => {
   return (
@@ -22,7 +22,7 @@ const Index = () => {
           </div>
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <h2 className="text-3xl font-semibold mb-6 text-green-700 flex items-center">
-              <Paw className="mr-2 text-green-600" /> Canine Characteristics
+              <PawPrint className="mr-2 text-green-600" /> Canine Characteristics
             </h2>
             <ul className="space-y-4 mb-8">
               {[
@@ -32,7 +32,7 @@ const Index = () => {
                 "Have an excellent sense of smell and hearing"
               ].map((item, index) => (
                 <li key={index} className="flex items-center text-green-600">
-                  <Paw className="mr-2 h-5 w-5 text-green-500" />
+                  <PawPrint className="mr-2 h-5 w-5 text-green-500" />
                   {item}
                 </li>
               ))}
@@ -48,7 +48,7 @@ const Index = () => {
                 "Poodle"
               ].map((breed, index) => (
                 <li key={index} className="flex items-center">
-                  <Paw className="mr-2 h-4 w-4 text-green-500" />
+                  <PawPrint className="mr-2 h-4 w-4 text-green-500" />
                   {breed}
                 </li>
               ))}
